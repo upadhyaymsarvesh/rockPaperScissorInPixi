@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "pixi.js": ["node_modules/pixi.js/index.d.ts"]
+    },
+    
+    "lib": ["es2017", "dom"],
+    "sourceMap": true
+  },
+  "files": ["src/script.ts"]
+}
